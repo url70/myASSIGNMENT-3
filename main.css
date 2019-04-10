@@ -1,0 +1,120 @@
+ body {
+     font-size: 5px; 
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header-nav {
+background-color: gray;
+border-radius:0;
+border:0;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.row{
+    margin-bottom: 15px;
+}
+.row > div{
+    border:1px solid black;
+    background-color: gray; 
+}
+ div{ 
+    display:block;
+}
+ .container {
+     border: 2px solid black;
+     display:grid;
+     width: 100%;
+     
+ }
+  
+ /* h1 {
+     text-align:center
+ }
+
+  .items {
+     border: 1px solid black;
+     background-color: rgba(0, 0, 0, 0.336);
+     margin: 5px 7px;
+     padding: 4px 4px;
+     font-size: 15px;
+     width:300px;
+     display: inline;
+     justify-content: space-around; 
+      
+     
+   }  */
+ *{
+    box-sizing:border-box; 
+}
+/* #chi_1{
+    float: right;
+    border:1px solid black;
+    background-color: pink; 
+    position: relative;
+    margin-right: auto;
+    margin-top: auto;
+    }
+#be_2{
+    float: right;
+    border:1px solid black;
+    background-color: rgba(165, 108, 42, 0.904); 
+    position: relative;
+    margin-right: auto;
+    margin-top: auto;
+}
+#su_3{ float: right;
+    border:1px solid black;
+    background-color:rgba(137, 218, 32, 0.89);
+    position: relative;
+    margin-right: auto;
+    margin-top: auto;
+
+} */
+@media(max-width:1200px){
+ /* .items,.items_1,.items_2,.items_3{ 
+     width:95%;  */
+ } 
+  .col-md-4 .col-sm-6{
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    
+}
+@media(min-width:783px) and (max-width:992px){
+ /* .items,.items_1,.items_2,.items_3{ 
+    float:left; 
+  }  */
+  .col-md-4 .col-sm-6{
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+ } 
+
+}
+
+ @media(min-width:300px) and (max-width:500px){
+ /* .items_1,.items_2,.items_3{ 
+    float:left; 
+  }  */
+  .col-md-4 .col-sm-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+ } 
+  } 
+.navbar-toggler{
+    position: relative;
+    float: left;
+    padding: 7px 10px;
+    margin-top:7px;
+    margin-right: 11px;
+    margin-bottom: 12px;
+    background-color: transparent;
+    border:1px solid transparent;
+    border: radius 4px;
+}
